@@ -1,5 +1,7 @@
 package Day3;
 
+import javax.security.auth.login.AccountNotFoundException;
+
 class Animal{
     void eat(){
         System.out.println("Animal Eat Method");
@@ -24,9 +26,8 @@ class Bulldog extends Dog{
 
 public class Inheritancee {
     public static void main(String[] args) {
-        Bulldog d = new Bulldog();
+        Animal d = new Dog();
         d.eat();
-        d.sound();
         d.sleep();
 
         Animal a = new Animal();

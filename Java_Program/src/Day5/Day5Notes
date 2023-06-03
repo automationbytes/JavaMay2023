@@ -1,0 +1,50 @@
+Limitations of Array
+--------------------
+Arrays are fixed in size, we cant increase size in runtime
+Arrays can only store homogenous data
+Any readymade methods of sorting, adding, removing
+Arrays(util)
+
+Collections
+------------
+Collections are used for data manipulation and organizing the data
+Collections are growable in nature
+We are going to store as Objects (Non Primitive datatype)
+Homo (Same) and Hetro (diff) data
+And we hav inbuild methods for adding, sorting etc
+
+=======================================================
+
+Collection Interface
+--------------------
+
+Parent interface of collection framework
+3 child interfaces
+1) List
+2) Set
+3) Queue
+
+Map Interface
+-------------
+Key and value pair
+
+Interview questions
+-------------------
+1) Find duplicate elements in arraylist
+2) remove all occurences of element in arraylist
+3) count the frequency of elements
+4) print common values of two maps/list
+5) take a para and find the frequency of words and print the most repeated word
+"Java is most popular programming language. Java is open source. Java is cross platform independent"
+
+
+
+
+
+
+
+
+
+
+
+

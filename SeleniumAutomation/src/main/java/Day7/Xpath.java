@@ -1,3 +1,5 @@
+package Day7;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -7,7 +9,7 @@ import java.time.Duration;
 
 public class Xpath {
     /*
-    Xpath = Xml path
+    Day7.Xpath = Xml path
     2 types
     1) Absolute xpath - html node. /
     2) relative xpath - starts anywhere in doc. //

@@ -28,5 +28,10 @@ public class SelectDropdwn {
             System.out.println(d.getAttribute("value")+"   "+d.getText());
         }
 
+
+        driver.close();
+        driver.quit();
+
+
     }
 }

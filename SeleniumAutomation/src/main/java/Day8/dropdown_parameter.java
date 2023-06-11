@@ -35,6 +35,7 @@ public class dropdown_parameter {
         selectvalue("//ul[@id=\"ui-id-2\"]/li","Kollam");
 
         driver.findElement(By.id("datepicker1")).click();
+
         selectvalue("//table[@class=\"ui-datepicker-calendar\"]//a","25");
 
 

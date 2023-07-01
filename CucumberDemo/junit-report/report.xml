@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="18.769" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="Google Search" name="To test the functionality of google search" time="10.781">
+<system-out><![CDATA[
+Given the user launches the application.....................................passed
+Then the user verifies the google logo......................................passed
+When the user enters "Cucumber" in google search............................passed
+And the user clicks on search button........................................passed
+Then the user verifies the google page result...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Google Search" name="To test the functionality of google search" time="7.549">
+<system-out><![CDATA[
+Given the user launches the application.....................................passed
+Then the user verifies the google logo......................................passed
+When the user enters "selenium" in google search............................passed
+And the user clicks on search button........................................passed
+Then the user verifies the google page result...............................passed
+]]></system-out>
+</testcase>
+</testsuite>

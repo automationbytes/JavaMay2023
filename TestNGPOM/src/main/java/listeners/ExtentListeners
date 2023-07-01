@@ -1,0 +1,62 @@
+package listeners;
+
+import baseClass.BaseTestClass;
+import com.aventstack.extentreports.Status;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
+import org.testng.ITest;
+import org.testng.ITestListener;
+import org.testng.ITestResult;
+import util.extentreports.ExtentManager;
+
+import java.util.Iterator;
+import java.util.Objects;
+
+import static util.extentreports.ExtentTestManager.getTest;
+
+public class ExtentListeners implements ITestListener {
+
+
+   // private static boolean overAllFailure;
+    public void onTestStart(ITestResult result){
+        String testName = "TestCase: "+ result.getMethod().getMethodName();
+        System.out.println(getTest());
+      //  overAllFailure = false;
+    }
+
+    public void onTestSuccess(ITestResult result){
+        System.out.println(getTest());
+        String testName = result.getMethod().getMethodName();
+        String logText = "Test Case: - "+testName.toUpperCase()+" Passed";
+        //Markup m = MarkupHelper.
+        getTest().log(Status.PASS,logText);
+
+    }
+
+    public void onTestFailure(ITestResult result){
+        System.out.println(getTest());
+        String testName = result.getMethod().getMethodName();
+        String logText = "Test Case: - "+testName.toUpperCase()+" Failed";
+        Object testClass = result.getInstance();
+        String base64Screenshot = "data:image/png;base64,"+((TakesScreenshot) Objects.requireNonNull(BaseTestClass.driver)).getScreenshotAs(OutputType.BASE64);
+        getTest().log(Status.FAIL,"Test Failed",
+                getTest().addScreenCaptureFromBase64String(base64Screenshot).getModel().getMedia().get(0));
+        //Markup m = MarkupHelper.
+    }
+
+    public void onFinish(ITestResult result){
+        System.out.println("*** Test \" + result.getMethod().getMethodName() + \" On Finish...\"");
+        ExtentManager.extentReports.flush();
+    }
+    public void onTestSkipped(ITestResult result) {
+        System.out.println("*** Test " + result.getMethod().getMethodName() + " skipped...");
+
+    }
+
+    public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
+        System.out.println("*** Test failed but within percentage % " + result.getMethod().getMethodName());
+    }
+
+
+}

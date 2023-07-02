@@ -5,17 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="afb389dc-301a-4bda-a0fe-0dd41b2c04be" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CucumberDemo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Runner/TestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/StepDefn/GoogleSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FeaturesFiles/Google2.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestNGPOM/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TestNGPOM/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberPOM/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberPOM/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberPOM/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberPOM/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberPOM/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberPOM/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberPOM/CucumberPOM.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberPOM/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,5 +89,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

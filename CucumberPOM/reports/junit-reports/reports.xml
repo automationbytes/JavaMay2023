@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="28.697" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="To perform a demo on cucumber pom" name="Login" time="14.877">
+<system-out><![CDATA[
+Given the user launches the NOPAdmin URL....................................passed
+Then the user verifies the logo.............................................passed
+When the user enters the username and password..............................passed
+And the user clicks on signin button........................................passed
+Then the user verifies the homepage.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To perform a demo on cucumber pom" name="Logout" time="13.436">
+<system-out><![CDATA[
+Given the user launches the NOPAdmin URL....................................passed
+Then the user verifies the logo.............................................passed
+When the user enters the username and password..............................passed
+And the user clicks on signin button........................................passed
+Then the user verifies the homepage.........................................passed
+And the user performs logout................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
